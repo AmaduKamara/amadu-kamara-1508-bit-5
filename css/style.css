@@ -18,6 +18,12 @@ header {
   align-items: center;
 }
 
+.logo{
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+
 header ul {
   display: flex;
   gap: 30px;
