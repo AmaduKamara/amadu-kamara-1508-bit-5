@@ -13,6 +13,24 @@ body {
 header {
   padding: 30px 100px;
   background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  gap: 30px;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
 }
 
 header h1 {
@@ -22,7 +40,7 @@ header h1 {
 }
 
 /* Main Styles */
-main{
+main {
   width: 80%;
   height: 700px;
   padding: 50px;
@@ -30,12 +48,12 @@ main{
   margin: 50px auto;
 }
 
-footer{
+footer {
   background-color: black;
   padding: 30px 100px;
 }
 
-footer p{
+footer p {
   text-align: center;
   color: #fff;
 }
